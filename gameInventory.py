@@ -42,7 +42,6 @@ def print_table(inventory,order):
         print("{:>8} {:>15}".format(value,key))
     print(len(c)*"-")
     print("Total number of items : "+str(sum(inventory.values())))
-    print(sorted_inventory)
     return inventory.items()
 
 def import_inventory(inventory,filename):
